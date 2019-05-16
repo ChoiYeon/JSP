@@ -1,0 +1,30 @@
+*{
+	margin:0;padding:0;box-sizing:border-box;
+}
+#wrap{
+	width:1200px;
+	hegiht:900px;
+	margin:0 auto;
+}
+#select{
+	width:1000px;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+#select td{
+	text-align: center;
+}
+#select th,td{
+	border: 1px solid black;
+}
+#indate{
+	width:400px;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+#indate th,td{
+	border: 1px solid black;
+}
+#btn{
+	text-align: center;
+}
