@@ -1,0 +1,62 @@
+*{
+	margin:0;padding:0;box-sizing:border-box
+}
+#wrap{
+	width:1200px;
+	height:1500px;
+	margin:0 auto;
+}
+#index button{
+	width:150px;
+	height:60px;
+	background:#f2f0ca;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+}
+#index legend{
+	font-size:20px;
+}
+#formfield legend{
+	font-size:20px;
+}
+#index{
+	padding:40px;
+}
+.btn{
+	width:80px;
+	height:30px;
+	background:#f2f0ca;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+}
+#form li{
+	list-style-position: inside;
+}
+#formfield{
+	padding:40px;
+}
+
+#ftbl{
+	width:400px;
+	margin:0 auto;
+	padding-top:50px;;
+}
+#ftbl td,th{
+	border:1px solid black
+}
+#title{
+	width:100%;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+}
+#homebtn{
+	text-align: center;
+	
+}
+.right{
+	text-align: right;
+}
+#ftbl td:not(.right){
+	text-align: center;
+}
