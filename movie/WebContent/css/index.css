@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+#wrap{
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+}
+#title{
+	width:100%;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+}
+#rank{
+	width:600px;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+#rank td,#rank th{
+	border:1px solid black;
+}
+#rank td:not(.right){
+	text-align: center;
+}
+#member{
+	width:800px;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+#member td,#member th{
+	border:1px solid black;
+}
+.right{
+	text-align: right;
+}
+#rank #btn input{
+	width:120px;
+	height:30px;
+	border:2px solid black;
+	margin-left:20px;
+	background: #fff;
+
+}
+#insert{
+	width:400px;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+#insert th,#insert td{
+	border:1px solid black;
+}
+#rank #btn{
+	height:40px;
+	line-height: 40px;;
+}
+#member #btn input{
+	width:120px;
+	height:30px;
+	border:2px solid black;
+	background: #fff;
+}
+#member #btn{
+	height:30px;
+	text-align: center;
+}
+#insert #btn input{
+	width:120px;
+	height:30px;
+	border:2px solid black;
+	background: #fff;
+}
+#insert #btn{
+	height:30px;
+	text-align: center;
+}
