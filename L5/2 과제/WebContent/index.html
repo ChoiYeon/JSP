@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	table{
+		border-collapse: collapse;
+		width:300px;
+	
+	}
+	td{
+	border:1px solid black;
+	text-align: center;
+	}
+	#wrap{
+width:1000px;
+height:1500px;
+}
+</style>
+</head>
+<body>
+<div id="wrap">
+	<form action="action.jsp">
+		<table>
+			<colgroup>
+				<col style="width:30%"/>
+				<col style="width:70%"/>
+			</colgroup>
+			<tr>
+				<td colspan="2">제품코드(4)입력</td>
+			</tr>
+			<tr>
+				<td>제품코드</td>
+				<td><input type="text" size="20" name="code"/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="확인"/></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
